@@ -1,0 +1,13 @@
+---
+more:
+  - name: Blogs
+    ref: "/posts"
+    icon: "gdoc_notification"
+  - name: Releases
+    ref: "https://github.com/glink-incubator/glink/releases"
+    external: true
+    icon: "gdoc_download"
+  - name: "Source"
+    ref: "https://github.com/glink-incubator/glink"
+    external: true
+    icon: "gdoc_github"

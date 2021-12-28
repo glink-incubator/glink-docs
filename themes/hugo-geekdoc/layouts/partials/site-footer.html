@@ -1,0 +1,28 @@
+<footer class="gdoc-footer">
+    <div class="container flex">
+        <div class="flex flex-wrap">
+            <span class="gdoc-footer__item gdoc-footer__item--row">
+                Copyright © 2021-2022 The Glink Team. All Rights Reserved.
+            </span>
+            {{ with .Site.Params.GeekdocLegalNotice }}
+            <span class="gdoc-footer__item gdoc-footer__item--row">
+                <a href="{{ . | relURL }}" class="gdoc-footer__link">Legal Notice</a>
+            </span>
+            {{ end }}
+            {{ with .Site.Params.GeekdocPrivacyPolicy }}
+            <span class="gdoc-footer__item gdoc-footer__item--row">
+                <a href="{{ . | relURL }}" class="gdoc-footer__link">Privacy Policy</a>
+            </span>
+            {{ end }}
+        </div>
+        {{ if (default true .Site.Params.GeekdocBackToTop) }}
+        <div class="flex flex-25 justify-end">
+            <span class="gdoc-footer__item text-right">
+                <a class="gdoc-footer__link fake-link" href="#" aria-label="Back to top">
+                    <svg class="icon gdoc_keyborad_arrow_up"><use xlink:href="#gdoc_keyborad_arrow_up"></use></svg> <span class="hidden-mobile">Back to top</span>
+                </a>
+            </span>
+        </div>
+        {{ end }}
+    </div>
+</footer>
