@@ -17,6 +17,8 @@ geekdocHiddenTocTree: true
 <span class="badge-placeholder">[![GitHub release](https://img.shields.io/github/v/release/glink-incubator/glink)](https://github.com/glink-incubator/glink/releases/latest)</span>
 <span class="badge-placeholder">[![GitHub contributors](https://img.shields.io/github/contributors/glink-incubator/glink)](https://github.com/glink-incubator/glink/graphs/contributors)</span>
 <span class="badge-placeholder">[![License: Apache](https://img.shields.io/github/license/glink-incubator/glink)](https://github.com/glink-incubator/glink/blob/master/LICENSE)</span>
+<span class="badge-placeholder">[![GitHub starts](https://img.shields.io/github/stars/glink-incubator/glink)](https://github.com/glink-incubator/glink/stargazers)</span>
+<span class="badge-placeholder">[![GitHub forks](https://img.shields.io/github/forks/glink-incubator/glink)](https://github.com/glink-incubator/glink/network/members)</span>
 
 <!-- markdownlint-restore -->
 
